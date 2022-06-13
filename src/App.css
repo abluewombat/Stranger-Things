@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+#navbar {
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+  text-decoration: none;
+  margin: 1rem 1rem .5rem .5rem;
+}
+#title, #username {
+  justify-content: right;
+  
+}
+#log-in,#log-in-page{
+  display: flex;
+  flex-direction: column;
+}
+#log-in-page{
+  align-items: center;
+}
+#log-in{
+  margin: 5px;
+  align-items: left;
+}
+#submit {
+  width:30vh
+}
+#confirm-password,#password,#username{
+max-width: 100%;
+min-width: 100%;
+}
+.input{
+  max-width: 100%;
+  min-width: 100%;
+}
+#create-post-title{
+  text-align: center;
+}
+#create-post-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.post-label, #submit-post{
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+#description{
+  height: 3rem;
+  width: 15rem;
+  resize: both;
+}
+li,ul{
+  display: flex;
+  margin-right: 10rem;
+  list-style-type:none;
+  text-decoration: none;
+}
