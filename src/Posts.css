@@ -1,0 +1,38 @@
+#post-container{
+    display:flex;
+    text-align: center;
+    flex-direction:column;
+    border: 1px solid black;
+    margin: 4px;
+    box-shadow: 1px 2px 2px;
+    background-color: lightgray;
+}
+#post-description{
+    text-align: left;
+    width: 70vw;
+    display: inline-flex;
+
+}
+#post-title{
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 40vw;
+    align-self: flex-start;
+
+}
+#post-author{
+
+}
+#post-price{
+    align-self: flex-end;
+    display: inline-flex;
+    text-align: right;
+    align-content:flex-end;
+    width: 30vw;
+    float: right;
+}
+#feed{
+    width:75vw;
+    background-color:lightblue;
+    border: 2px solid black;
+}
